@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: rgb(93, 191, 248);
+    
+}
+
+button {
+   
+    color: black;
+    border: 0px;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+button:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+.theme {
+  float: right;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+
+.theme img{
+    width: 2rem;
+}
+
+.center {
+
+    display: block;
+    margin: auto;
+    margin: auto;
+    width: 250px;
+}
+
+
+pre {
+    float: center;
+    font: larger;
+    font-family: fantasy;
+    
+}
+
+p {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: bold;
+}
